@@ -1,0 +1,106 @@
+{
+  "model": "dacorvo/mnist-mlp",
+  "dataset": "dmitva/the-mnist-database",
+  "initial_train": {
+    "loss": 0.7335892915725708,
+    "accuracy": 0.75,
+    "samples": 4
+  },
+  "final_train": {
+    "loss": 0.7290531396865845,
+    "accuracy": 0.75,
+    "samples": 4
+  },
+  "rtl_test": {
+    "loss": -0.0,
+    "accuracy": 1.0,
+    "samples": 4
+  },
+  "training": [
+    {
+      "step": 0,
+      "policy": [
+        1,
+        7,
+        4,
+        2,
+        4,
+        1
+      ],
+      "active_blocks": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "pre_update_metrics": {
+        "loss": 0.7335892915725708,
+        "accuracy": 0.75,
+        "samples": 4
+      },
+      "rtl_classifier_gradient_cycles": 2580,
+      "rtl_service_us": 12.776159999999999,
+      "host_plus_simulator_seconds": 30.71137831599981
+    },
+    {
+      "step": 1,
+      "policy": [
+        0,
+        3,
+        2,
+        4,
+        2,
+        1
+      ],
+      "active_blocks": [
+        2,
+        3
+      ],
+      "pre_update_metrics": {
+        "loss": 0.9871123433113098,
+        "accuracy": 0.75,
+        "samples": 4
+      },
+      "rtl_classifier_gradient_cycles": 2737,
+      "rtl_service_us": 13.553624,
+      "host_plus_simulator_seconds": 29.872404972999902
+    }
+  ],
+  "forward_performance": [
+    {
+      "phase": "TRAIN BEFORE UPDATES",
+      "mode": 1,
+      "groups": 3,
+      "samples": 4,
+      "rtl_job_cycles": 7061,
+      "batch_latency_us": 34.966072,
+      "amortized_us_per_image": 8.741518,
+      "accelerator_images_per_second": 114396.60708815105,
+      "useful_gops": 61.49961597059001,
+      "host_plus_simulator_seconds": 277.8193021369998,
+      "checked_values": 2096
+    },
+    {
+      "phase": "HELD-OUT TEST AFTER UPDATES",
+      "mode": 1,
+      "groups": 3,
+      "samples": 4,
+      "rtl_job_cycles": 7061,
+      "batch_latency_us": 34.966072,
+      "amortized_us_per_image": 8.741518,
+      "accelerator_images_per_second": 114396.60708815105,
+      "useful_gops": 61.49961597059001,
+      "host_plus_simulator_seconds": 205.47185544299964,
+      "checked_values": 2096
+    }
+  ],
+  "period_ns": 4.952,
+  "operating_mhz": 201.93861066235866,
+  "rtl_checked_values": 11600,
+  "execution": "Full-system RTL forward/gradient GEMMs; host-assisted classifier LoRA updates",
+  "bf16_coverage": "Real-activation kernel only",
+  "full_model_training": false,
+  "accuracy_scope": "Four-image smoke test, not a benchmark",
+  "power_energy_measured": false,
+  "latency_scope": "RTL job cycles at mapped pre-layout clock; includes job guards and output stalls; excludes host/DMA time"
+}

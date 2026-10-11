@@ -1,0 +1,15 @@
+
+# AURORA generated files
+/backups/
+/models/
+/donor_ip/
+/synth/
+/physical/
+*.vcd
+*.fst
+*.jsonl
+*.vvp
+*.partial
+__pycache__/
+.env
+.env.*

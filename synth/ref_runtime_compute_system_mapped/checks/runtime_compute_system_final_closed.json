@@ -1,0 +1,160 @@
+{
+  "cells": 524715,
+  "new_reset_buffers": 4350,
+  "new_clear_buffers": 1208,
+  "mapped_area_um2": 6308714.307224019,
+  "cell_connectivity_sha256": "59fa32885581ccb48d901ca3d649b497f3ee1081b0a57f9b1c4dd5b307306885",
+  "interface_sha256": "2cbdab43d34c1e10f22a3031aefe09ac17902a4ecabebf2f635441e2b294200a",
+  "structural_export_validated": true,
+  "netlist": "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/mapping_20261009T191703212801Z/stream_parts/joined_candidate/completed_candidate/control_eco/runtime_compute_system_control_eco_500mhz.v",
+  "netlist_sha256": "431a8ebf897bb12390af298df854673956554c61fc8bdbc7501d429a001f5efd",
+  "records_sha256": "7cbc3c55783511cc2e41f6f3a5ab5bcabcaf16bac49025f9e584145ec27abdcf",
+  "distribution_sha256": "dd139643a83a52b3f988b2fbc8e3c5439079d8daf9870e6bf0788d6db3356d19",
+  "join_manifest_sha256": "d0b652f4f744028b8db6884fd1aa2d85d33c6ce393722ebc0ee02bc446ac137e",
+  "liberty_sha256": "8e78e14442062dba34d414fca6490b2f6b96038d4510d1438ca44fee31487135",
+  "sta_netlist": "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/mapping_20261009T191703212801Z/stream_parts/joined_candidate/completed_candidate/control_eco/runtime_compute_system_control_eco_500mhz_sta_compatible.v",
+  "sta_netlist_sha256": "3a5d0ba251b9dc5ada244baa3e873e8282fd72ce52e619603d095b9d1621f276",
+  "sta_compatibility_manifest": "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/mapping_20261009T191703212801Z/stream_parts/joined_candidate/completed_candidate/control_eco/sta_compatibility_manifest.json",
+  "metrics": {
+    "wns": 0.200144798,
+    "tns": 0.0,
+    "hold_wns": 0.091967121,
+    "hold_tns": 0.0
+  },
+  "timing_measurement_complete": true,
+  "mapped_setup_hold_closed": true,
+  "additional_checks_require_review": false,
+  "clock_period_ns": 4.952,
+  "sta_exit_code": 0,
+  "warning_count": 0,
+  "error_count": 0,
+  "sta_tcl": "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/mapping_20261009T191703212801Z/stream_parts/joined_candidate/completed_candidate/control_eco/final_frequency_20261009T194840445958Z/final_sta.tcl",
+  "sta_tcl_sha256": "ec86b71c98382691abd44a401a7f6d51fa96ae110853dc92f40423d82b742229",
+  "sta_log": "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/mapping_20261009T191703212801Z/stream_parts/joined_candidate/completed_candidate/control_eco/final_frequency_20261009T194840445958Z/final_sta.log",
+  "reported_paths": {
+    "setup": 6,
+    "hold": 4
+  },
+  "sampled_peak_sta_rss_mib": 1706.29296875,
+  "original_design_modified": false,
+  "physical_timing_measured": false,
+  "power_measured": false,
+  "mapped_timing_closed": true,
+  "baseline_timing": "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/mapping_20261009T191703212801Z/stream_parts/joined_candidate/completed_candidate/control_eco/timing_20261009T193736713810Z.json",
+  "baseline_timing_sha256": "d7a7272eddd95155a76cb22244132942d8a2406253b6b5e67da5314a36224825",
+  "period_margin_ns": 0.4,
+  "search_trials": [
+    [
+      2.0,
+      -1.48341077,
+      0.091967117
+    ],
+    [
+      3.883411,
+      -0.334149162,
+      0.091967117
+    ],
+    [
+      4.551709324,
+      -4.44e-07,
+      0.091967117
+    ],
+    [
+      4.951709324,
+      0.199999578,
+      0.091967117
+    ],
+    [
+      3.475854662,
+      -0.537927274,
+      0.091967117
+    ],
+    [
+      4.213781993,
+      -0.168963959,
+      0.091967117
+    ],
+    [
+      4.582745659,
+      0.01551781,
+      0.091967117
+    ],
+    [
+      4.398263826,
+      -0.076723075,
+      0.091967117
+    ],
+    [
+      4.490504743,
+      -0.030602632,
+      0.091967117
+    ],
+    [
+      4.536625201,
+      -0.007542411,
+      0.091967117
+    ],
+    [
+      4.55968543,
+      0.003987921,
+      0.091967117
+    ],
+    [
+      4.548155315,
+      -0.001777245,
+      0.091967117
+    ],
+    [
+      4.553920373,
+      0.001105338,
+      0.091967117
+    ],
+    [
+      4.551037844,
+      -0.000336176,
+      0.091967117
+    ],
+    [
+      4.552479108,
+      0.000384581,
+      0.091967117
+    ],
+    [
+      4.551758476,
+      2.4425e-05,
+      0.091967117
+    ],
+    [
+      4.952,
+      0.200144795,
+      0.091967117
+    ]
+  ],
+  "boundary_bracket_ns": [
+    4.551037844,
+    4.551758476,
+    -0.000336176,
+    2.4425e-05
+  ],
+  "additional_check_slacks": {
+    "recovery": [
+      1.582024
+    ],
+    "removal": [
+      2.107951
+    ],
+    "slew": [
+      0.120235
+    ],
+    "cap": [
+      0.013005
+    ]
+  },
+  "operating_frequency_mhz": 201.93861066235866,
+  "mapped_fmax_pass_mhz": 219.69531232219097,
+  "mapped_fmax_fail_mhz": 219.7300998756538,
+  "clock_uncertainty_ns": 0.05,
+  "input_delay_ns": 0.1,
+  "output_delay_ns": 0.1,
+  "timing_scope": "SKY130 TT mapped cell STA, established I/O constraints, ideal clock, no routed parasitics."
+}

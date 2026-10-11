@@ -1,0 +1,47 @@
+{
+  "architecture": "AURORA",
+  "architecture_designer": "Talha Alam",
+  "rtl_source_hashes": {
+    "rtl/control/runtime_config_manager.sv": "b72c33fc5ea70560dad90b21dc717f129be289cc0ea3c59f19505349e065d8a4",
+    "rtl/control/compute_dispatcher.sv": "cc196afb6d6d7cd94cb1581c968600fb8ab06af86a3118139ccada3a758b5613",
+    "rtl/control/compute_group_command_buffer.sv": "3dd5bd5ed9719bcf477edaba8f7382e7f20f13efda18cf766ea7119a7a3a8a29",
+    "rtl/governor/ee_energy_elastic_governor_pipe.sv": "d5ee98c1ac49d7fbedc20e2792c17eea20e86bb985d093fa910837f0aa330782",
+    "rtl/control/ee_work_scheduler_boundary.sv": "3803096c9a1598bbd349f1c3fcfae2bb91faddd5f04743c450aee434f84d678e",
+    "rtl/top/ee_runtime_command_frontend.sv": "444c4561559a7ac575aea8db41bbed41c76a0d917e3f0c9cbc6111f814001287",
+    "rtl/engines/int4/dual_int4.v": "04aced18436d4b0777a45c49b497dd88ded3e1dd3203bc3918847323d785c69e",
+    "rtl/engines/ref_based/ee_int4_dot8_pipe.sv": "6365e8c5f1eed3f012cecb11b0681e0fdf9f5a76eb11d484ad393299805348cd",
+    "rtl/engines/ref_based/ee_int4_pe_csa.sv": "78b26fc1b068212b5d61c0381536d0261064c64851e2ad9ed39e8087400388d5",
+    "rtl/engines/ref_based/ee_int4_mesh_pe.sv": "c0ce10aad3bd3c51cf0f8f925d3a492327a6ea905a804cac94273eefdf4f709d",
+    "rtl/engines/ref_based/ee_int4_mesh_2x2.sv": "d3981b037c934ad702d8afd5d75168c7698cf06926c2d81f00b8815868e7735d",
+    "rtl/engines/ref_based/ee_int4_mesh_4x4.sv": "a820eebfd65b27ea59a58ecefd89fa4933ca5085d150150039dd9da126a08518",
+    "rtl/engines/ref_based/ee_int8_dot4_pipe.sv": "9556fefd0695dff6f49292f47fe2f360c22f446ab6a63b0d8fd0b8654c1d4978",
+    "rtl/engines/ref_based/ee_int8_pe_csa.sv": "b72a5120d3b747ff76a7504e17ec779d93c56f9285b1d6bc64dd4ef4ea923075",
+    "rtl/engines/ref_based/ee_int8_mesh_pe.sv": "180d3f99acc7c2e8069a21c0dea95c7c7d5a7d7aff323bcd5f2e168ae29ec8d5",
+    "rtl/engines/ref_based/ee_int8_mesh_4x4.sv": "8947d0574120261933710b3c02b15d757c98cc7d9fd665413f8f7326634ba784",
+    "rtl/engines/ref_based/ee_bf16_simd2.sv": "09a7fd31db891629ed5c455d359c5379b0efb0cc1023d984ea0e5f7a56911704",
+    "rtl/engines/int8/nce_bf16_mul_to_fp32_pipeline.sv": "7d9cc35259de9895d25b5bf1525bb9fe8187d43b237727e330773d3ef028291a",
+    "rtl/engines/ref_based/ee_bf16_dot2_pipe.sv": "7f7a83eb3f16f5e1e30e6e43dfb3bfedd1279c9b73b339af49c29293553e0b49",
+    "rtl/engines/int8/nce_fp32_decode.sv": "dd0cd1492cf351bd0dec1c84ece78a6d037ff88e17db8b960a9ed98b7be4cebe",
+    "rtl/engines/int8/nce_fp32_align_pipeline_500mhz.sv": "3cbcd6663e01da29fead683831ec85f0944d0908f8552a95269c0abfcfe516ee",
+    "rtl/engines/int8/nce_fp32_normalize.sv": "83e45d103a78be1fb46fe7979a7d260a05e1c68cd1cabdfa33b0ebf987259a5c",
+    "rtl/engines/int8/nce_fp32_round_pack.sv": "bf048fd01b9ac20bf4906ddd9cb84df6cdc43b73c748952e0497d8e36e2a9898",
+    "rtl/engines/int8/nce_fp32_add_special.sv": "6dcb15a201d2a1783e3ea1e12ee21c345b9ba0d64d6b120d8546e6951a2527fd",
+    "rtl/engines/int8/nce_fp32_addsub_raw.sv": "94e2553ae8a21da8506cd562768861477a9e07313dfc9aa54dbfbfb2cecaa9a9",
+    "rtl/engines/int8/nce_fp32_product_sum_500mhz.sv": "28bc40dd367ec043c74c8be58d7d994c13fe91c9d335bc15bb12a5fa3b9bb598",
+    "synth/ref_runtime_compute_system_mapped/checks/control_candidate_20261009T191611565817Z/ee_compute_group_stream.sv": "fc920985fc4c9e72b6372bd61c69fefa6f9b4a6d746e356c164a984dc66c36d5",
+    "rtl/top/ee_runtime_compute_system.sv": "dddb281959aad9c21bc83579e93af5be81a7f414831bdabd1813482c395f2ed3"
+  },
+  "cells": 524715,
+  "mapped_area_um2": 6308714.307224019,
+  "clock_period_ns": 4.952,
+  "netlists": [
+    {
+      "file": "release/aurora_final/mapped.v.gz",
+      "uncompressed_sha256": "431a8ebf897bb12390af298df854673956554c61fc8bdbc7501d429a001f5efd"
+    },
+    {
+      "file": "release/aurora_final/sta_compatible.v.gz",
+      "uncompressed_sha256": "3a5d0ba251b9dc5ada244baa3e873e8282fd72ce52e619603d095b9d1621f276"
+    }
+  ]
+}
