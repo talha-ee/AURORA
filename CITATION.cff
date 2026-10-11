@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this architecture, RTL or validation material, please cite this repository."
+type: software
+title: "AURORA: Adaptive Runtime Architecture for Edge Learning"
+authors:
+- family-names: "Alam"
+  given-names: "Talha"
+  date-released: 2026-10-11
+  repository-code: "https://github.com/talha-ee/AURORA"
+  url: "https://github.com/talha-ee/AURORA"
+  
